@@ -1,0 +1,86 @@
+{
+  "ethane": [
+    {
+      "step_deg": 1,
+      "number_of_origins": 4,
+      "max_angle_error_deg": 0.5,
+      "max_energy_error_kcal_mol": 0.00096052,
+      "max_merger_split_kcal_mol": null,
+      "split_origins": null
+    },
+    {
+      "step_deg": 2,
+      "number_of_origins": 8,
+      "max_angle_error_deg": 1,
+      "max_energy_error_kcal_mol": 0.00379687,
+      "max_merger_split_kcal_mol": null,
+      "split_origins": null
+    },
+    {
+      "step_deg": 4,
+      "number_of_origins": 16,
+      "max_angle_error_deg": 2,
+      "max_energy_error_kcal_mol": 0.01513019,
+      "max_merger_split_kcal_mol": null,
+      "split_origins": null
+    },
+    {
+      "step_deg": 6,
+      "number_of_origins": 24,
+      "max_angle_error_deg": 3,
+      "max_energy_error_kcal_mol": 0.0339802,
+      "max_merger_split_kcal_mol": null,
+      "split_origins": null
+    },
+    {
+      "step_deg": 12,
+      "number_of_origins": 48,
+      "max_angle_error_deg": 6,
+      "max_energy_error_kcal_mol": 0.1349402,
+      "max_merger_split_kcal_mol": null,
+      "split_origins": null
+    }
+  ],
+  "n-butane": [
+    {
+      "step_deg": 1,
+      "number_of_origins": 2,
+      "max_angle_error_deg": 0.5,
+      "max_energy_error_kcal_mol": 0.00132404,
+      "max_merger_split_kcal_mol": 6.3e-7,
+      "split_origins": 1
+    },
+    {
+      "step_deg": 2,
+      "number_of_origins": 4,
+      "max_angle_error_deg": 1,
+      "max_energy_error_kcal_mol": 0.00585278,
+      "max_merger_split_kcal_mol": 0.00124435,
+      "split_origins": 4
+    },
+    {
+      "step_deg": 4,
+      "number_of_origins": 8,
+      "max_angle_error_deg": 2,
+      "max_energy_error_kcal_mol": 0.02327809,
+      "max_merger_split_kcal_mol": 0.00684613,
+      "split_origins": 8
+    },
+    {
+      "step_deg": 6,
+      "number_of_origins": 12,
+      "max_angle_error_deg": 3,
+      "max_energy_error_kcal_mol": 0.05221946,
+      "max_merger_split_kcal_mol": 0.01366716,
+      "split_origins": 12
+    },
+    {
+      "step_deg": 12,
+      "number_of_origins": 24,
+      "max_angle_error_deg": 6,
+      "max_energy_error_kcal_mol": 0.20660122,
+      "max_merger_split_kcal_mol": 0.03367592,
+      "split_origins": 24
+    }
+  ]
+}
