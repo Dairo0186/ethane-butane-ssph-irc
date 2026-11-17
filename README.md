@@ -26,4 +26,12 @@ Both finite H₀ intervals for n-butane die at 3.26988912 kcal/mol in the suppli
 - [results/](results/): persistence intervals and discrete profile extrema.
 - [docs/quantum-validation.md](docs/quantum-validation.md): stationary-point and IRC assignments, with the evidence each requires.
 
-The repository currently reproduces the persistence calculation. The manuscript figure and its original plotting script, the angular subsampling study, and raw Gaussian input/output files are not included in this version.
+## Reproduce the angular sensitivity analysis
+
+```sh
+node scripts/analyze-sensitivity.mjs
+```
+
+See [results/angular-sensitivity.json](results/angular-sensitivity.json) for the maximum errors over all available grid origins at each step. The script subsamples the existing profiles; it does not rerun Gaussian. It removes the duplicated periodic endpoint, examines every distinct origin for each step, and matches minima and maxima by circular angular distance within each type. Energy deviations compare profiles relative to their respective sampled minima. A merger is counted as split when its two death energies differ by more than 10⁻⁸ kcal/mol.
+
+The original manuscript figure and plotting script, and the raw Gaussian inputs and outputs, are not included in this version.
