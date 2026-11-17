@@ -1,0 +1,79 @@
+{
+  "ethane": {
+    "vertices": 480,
+    "H0_finite": [],
+    "H0_essential": [
+      0,
+      null
+    ],
+    "H1_essential": [
+      2.73353882,
+      null
+    ],
+    "extrema": [
+      {
+        "angle_deg": 0,
+        "energy_kcal_mol": 2.73353882,
+        "type": "maximum"
+      },
+      {
+        "angle_deg": 60,
+        "energy_kcal_mol": 0,
+        "type": "minimum"
+      }
+    ]
+  },
+  "n-butane": {
+    "vertices": 720,
+    "H0_finite": [
+      [
+        0.61416046,
+        3.26988912
+      ],
+      [
+        0.61416486,
+        3.26988912
+      ]
+    ],
+    "H0_essential": [
+      0,
+      null
+    ],
+    "H1_essential": [
+      5.45939894,
+      null
+    ],
+    "extrema": [
+      {
+        "angle_deg": 0,
+        "energy_kcal_mol": 5.45939894,
+        "type": "maximum"
+      },
+      {
+        "angle_deg": 64.5,
+        "energy_kcal_mol": 0.61416486,
+        "type": "minimum"
+      },
+      {
+        "angle_deg": 119.5,
+        "energy_kcal_mol": 3.26988912,
+        "type": "maximum"
+      },
+      {
+        "angle_deg": 180,
+        "energy_kcal_mol": 0,
+        "type": "minimum"
+      },
+      {
+        "angle_deg": 240.5,
+        "energy_kcal_mol": 3.26988912,
+        "type": "maximum"
+      },
+      {
+        "angle_deg": 295.5,
+        "energy_kcal_mol": 0.61416046,
+        "type": "minimum"
+      }
+    ]
+  }
+}
